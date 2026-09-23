@@ -1,0 +1,25 @@
+{
+  "modName": "QuickSell",
+  "keybinds": [
+    {
+      "id": "SellModeToggleHotkey",
+      "desc": "Toggle Sell Mode on/off at any time, without opening MCM.",
+      "action": {
+        "type": "CallFunction",
+        "form": "QuickSell.esp|F99",
+        "function": "SellModeToggleHotkey",
+        "params": []
+      }
+    },
+    {
+      "id": "OpenBarterHotkey",
+      "desc": "Open Mobile Barter directly.",
+      "action": {
+        "type": "CallFunction",
+        "form": "QuickSell.esp|F99",
+        "function": "OpenBarterHotkey",
+        "params": []
+      }
+    }
+  ]
+}

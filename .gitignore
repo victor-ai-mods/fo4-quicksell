@@ -1,0 +1,11 @@
+# Скомпилированные скрипты и архивы релизов: собираются из исходников (см. README, раздел «Build»)
+build/
+release/
+
+# Копия ванильного ScriptObject.psc (Bethesda) с двумя объявлениями F4SE — больше не нужна для сборки
+compile_stubs/
+
+# Скрипты чужих модов, вынесенные из Data\Scripts при настройке Creation Kit
+_backup_scripts_removed_from_data_scripts/
+
+*.log
