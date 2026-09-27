@@ -20,6 +20,7 @@ Tested on game version 1.10.163. The full user-facing description is in
 | `Scripts/Source/User/QS_*.psc` | Papyrus source for every script the plugin uses |
 | `MCM/Config/QuickSell/config.json` | The MCM page |
 | `MCM/Config/QuickSell/keybinds.json` | What the MCM hotkeys call — without this file MCM accepts a hotkey and then silently resets it to None |
+| `tools/patch_aid_items.py` | Binary fix applied to the CK-made `QuickSell.esp` in 1.5: the Aid items were Stimpak copies and kept its `PlayAnimOnItemUse` / `ObjectTypeStimpak` keywords, which let stimpak/animation mods swallow their use. Idempotent; run it again if the plugin is ever re-saved in the Creation Kit |
 
 ## Build
 
