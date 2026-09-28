@@ -2,15 +2,17 @@
 
 A Fallout 4 mod. Published on Nexus Mods: https://www.nexusmods.com/fallout4/mods/109100
 
-- **Sell Mode** — open any container, move items out of it, close it, confirm: the items are sold
-  for caps on the spot, at the price a real vendor would pay (Charisma and Cap Collector included),
-  times your own percentage (10–100%).
+- **Sell Mode** — open any container, move items out of it or into it, close it, confirm: everything
+  moved (the net difference per item) is sold for caps on the spot, at the price a real vendor would
+  pay (Charisma and Cap Collector included), times your own percentage (10–100%). Items taken out are
+  sold from your inventory, items put in are sold from the container. Sell Mode switches itself off
+  after each confirmation dialog.
 - **Mobile Barter** — the real vanilla barter menu with a hidden vendor, anywhere.
 - Two MCM hotkeys, plus Aid items for controller players.
 
 Requires F4SE and [Mod Configuration Menu](https://www.nexusmods.com/fallout4/mods/21497).
-Tested on game version 1.10.163. The full user-facing description is in
-[`NEXUS_DESCRIPTION.md`](NEXUS_DESCRIPTION.md).
+Tested on game version 1.10.163. The full user-facing description is on the
+[Nexus page](https://www.nexusmods.com/fallout4/mods/109100).
 
 ## What is here
 
